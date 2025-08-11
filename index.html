@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220614173933">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<!-- Обмежувальний контейнер -->
+			<div class="header__container">
+				<!-- header__logo / Логотип -->
+				<a class="header__logo" href=""><picture><source srcset="img/icon/logo.webp" type="image/webp"><img src="img/icon/logo.png" alt="logo"></picture></a>
+				<!-- header__menu / Навігація сату, при досягненні визначеной ширини згортається в бургер -->
+				<div class="header__menu menu">
+					<!-- Кнопка - Меню бургер -->
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Reviews</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- header__actions / Дій сайту: реєстрація, вхід і т.д. -->
+				<div class="header__actions">
+					<button class="header__button button" type="submit">Get Started </button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<!-- home / Екран показу перший екран -->
+			<section class="page__home home">
+				<!-- Обмежувальний контейнер -->
+				<div class="home__container">
+					<!-- home__content / Контентна частина блока -->
+					<div class="home__content content-home">
+						<p class="content-home__subtitle title-sub">Smart Business</p>
+						<h1 class="content-home__title title-h1">Connecting people is our <span>business</span></h1>
+						<p class="content-home__text">As a rule the organization settles on the inventive and media choices. Regularly it supplies supporting statistical.</p>
+						<!-- content-blok__actions / Дій сайта -->
+						<div class="content-home__actions">
+							<button class="content-home__btn button" type="submit">Get Started </button>
+							<button class="content-home__play" type="submit">
+								<img class="content-home__play-icon" src="img/icon/play.svg" alt="icon play">
+								<span class="content-home__play-text">Play Vedio</span>
+							</button>
+						</div>
+					</div>
+					<!-- home__img / Картинака блока -->
+					<div class="home__img">
+						<img src="img/home-img.svg" alt="home img">
+					</div>
+				</div>
+			</section>
+			<!--  -->
+			<section class="page__community community">
+				<div class="community__container">
+					<div class="community__img">
+						<picture><source srcset="img/community-img.webp" type="image/webp"><img class="community__img-img" src="img/community-img.png" alt=""></picture>
+						<img class="community__img-icon" src="img/icon/play.svg" alt="">
+					</div>
+					<div class="community__content content-community">
+						<p class="content-community__subtitle title-sub">Community</p>
+						<h2 class="content-community__title title-h2">Platform Dedicated To Promoting</h2>
+						<p class="content-community__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum sagittis ultrices consectetur adipiscing elit. fringilla quisque pulvinar..</p>
+						<div class="content-community__actions">
+							<button class="content-community__btn button" type="submit">What we do? </button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--  -->
+			<section class="page__work work">
+				<div class="work__container">
+					<h2 class="work__title title-h2">How We Work</h2>
+					<div class="work__wrapper">
+						<div class="work__item item-work">
+							<div class="item-work__img">
+								<img src="img/item-work-img-1.svg" alt="">
+							</div>
+							<h4 class="item-work__title title-h4">Start Design</h4>
+							<p class="item-work__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra suscipit adipiscing elit.</p>
+						</div>
+						<div class="work__item item-work">
+							<div class="item-work__img">
+								<img src="img/item-work-img-2.svg" alt="">
+							</div>
+							<h4 class="item-work__title title-h4">Go to Code</h4>
+							<p class="item-work__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra suscipit adipiscing elit.</p>
+						</div>
+						<div class="work__item item-work">
+							<div class="item-work__img">
+								<img src="img/item-work-img-3.svg" alt="">
+							</div>
+							<h4 class="item-work__title title-h4">Final Deliverd</h4>
+							<p class="item-work__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra suscipit adipiscing elit.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--  -->
+			<section class="page__coments ">
+				<div class="coments__container">
+					<div class="coments__top">
+						<h2 class="coments__title title-h2">What Our Customers are Saying.</h2>
+						<div class="coments__navigation">
+							<!-- Навигація слайдера (вліво/вправо) -->
+							<button type="button" class="coments__button-prev"><img src="img/icon/arrow-prev.svg" alt="Навігація слайдера вліво"></button>
+							<button type="button" class="coments__button-next"><img src="img/icon/arrow-next.svg" alt="Навігація слайдера вправо"></button>
+						</div>
+					</div>
+					<!-- Слайдер його обгортка -->
+					<div class="coments__slider swiper">
+						<!-- Рухаюча частина слайдера -->
+						<div class="coments__wrapper swiper-wrapper">
+							<!-- Слайд показу -->
+							<div class="coments__slide swiper-slide">
+								<!-- Коментарій-карточка -->
+								<div class="comentsCart">
+									<div class="comentsCart__user">
+										<picture><source srcset="img/avatar/avatar-1.webp" type="image/webp"><img src="img/avatar/avatar-1.png" alt="Аватар користувача"></picture>
+									</div>
+									<div class="comentsCart__content">
+										<p class="comentsCart__content-text">I recently concluded a complete messaging revamp for an exciting com</p>
+										<div class="comentsCart__content-userName">
+											<div class="comentsCart__content-name">Leo Aminoff</div>
+											<div class="comentsCart__content-activity">Product Designer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд показу -->
+							<div class="coments__slide swiper-slide">
+								<!-- Коментарій-карточка -->
+								<div class="comentsCart">
+									<div class="comentsCart__user">
+										<picture><source srcset="img/avatar/avatar-2.webp" type="image/webp"><img src="img/avatar/avatar-2.png" alt="Аватар користувача"></picture>
+									</div>
+									<div class="comentsCart__content">
+										<p class="comentsCart__content-text">I recently concluded a complete messaging revamp for an excitin company</p>
+										<div class="comentsCart__content-userName">
+											<div class="comentsCart__content-name">Carla Dias</div>
+											<div class="comentsCart__content-activity">Product Designer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд показу -->
+							<div class="coments__slide swiper-slide">
+								<!-- Коментарій-карточка -->
+								<div class="comentsCart">
+									<div class="comentsCart__user">
+										<picture><source srcset="img/avatar/avatar-3.webp" type="image/webp"><img src="img/avatar/avatar-3.png" alt="Аватар користувача"></picture>
+									</div>
+									<div class="comentsCart__content">
+										<p class="comentsCart__content-text">I recently concluded a complete messaging revamp for an exciting company in the Cloud strategic advisory space.</p>
+										<div class="comentsCart__content-userName">
+											<div class="comentsCart__content-name">Ruben Siphron</div>
+											<div class="comentsCart__content-activity">Product Designer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд показу -->
+							<div class="coments__slide swiper-slide">
+								<!-- Коментарій-карточка -->
+								<div class="comentsCart">
+									<div class="comentsCart__user">
+										<picture><source srcset="img/avatar/avatar-1.webp" type="image/webp"><img src="img/avatar/avatar-1.png" alt="Аватар користувача"></picture>
+									</div>
+									<div class="comentsCart__content">
+										<p class="comentsCart__content-text">I recently concluded a complete messaging revamp for an exciting com</p>
+										<div class="comentsCart__content-userName">
+											<div class="comentsCart__content-name">Leo Aminoff</div>
+											<div class="comentsCart__content-activity">Product Designer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд показу -->
+							<div class="coments__slide swiper-slide">
+								<!-- Коментарій-карточка -->
+								<div class="comentsCart">
+									<div class="comentsCart__user">
+										<picture><source srcset="img/avatar/avatar-2.webp" type="image/webp"><img src="img/avatar/avatar-2.png" alt="Аватар користувача"></picture>
+									</div>
+									<div class="comentsCart__content">
+										<p class="comentsCart__content-text">I recently concluded a complete messaging revamp for an excitin company</p>
+										<div class="comentsCart__content-userName">
+											<div class="comentsCart__content-name">Carla Dias</div>
+											<div class="comentsCart__content-activity">Product Designer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд показу -->
+							<div class="coments__slide swiper-slide">
+								<!-- Коментарій-карточка -->
+								<div class="comentsCart">
+									<div class="comentsCart__user">
+										<picture><source srcset="img/avatar/avatar-3.webp" type="image/webp"><img src="img/avatar/avatar-3.png" alt="Аватар користувача"></picture>
+									</div>
+									<div class="comentsCart__content">
+										<p class="comentsCart__content-text">I recently concluded a complete messaging revamp for an exciting company in the Cloud strategic advisory space.</p>
+										<div class="comentsCart__content-userName">
+											<div class="comentsCart__content-name">Ruben Siphron</div>
+											<div class="comentsCart__content-activity">Product Designer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--  -->
+			<section class="page__form form">
+				<div class="form__wrapper">
+					<div class="form__container">
+						<h4 class="form__title">Sign Up to Our Newsletter</h4>
+						<p class="form__text">Yours could be one of them.</p>
+						<form class="form__body body-form" action="">
+							<img class="body-form__icon" src="img/icon/mail.svg" alt="">
+							<input class="body-form__input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter Your Email">
+							<button class="body-form__btn button" type="submit">Send</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__body body-footer">
+				<div class="body-footer__container">
+					<div class="body-footer__item">
+						<a class="body-footer__logo" href=""><picture><source srcset="img/icon/logo.webp" type="image/webp"><img src="img/icon/logo.png" alt="logo"></picture></a>
+						<a class="body-footer__link" href="">Smart business</a>
+						<a class="body-footer__link" href="">Community</a>
+					</div>
+					<div class="body-footer__item">
+						<h6 class="body-footer__title">Resources</h6>
+						<ul class="body-footer__list">
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Start Business</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Digital Marketing</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Course Creation</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Business Accelerator</a></li>
+						</ul>
+					</div>
+					<div class="body-footer__item">
+						<h6 class="body-footer__title">Mission</h6>
+						<ul class="body-footer__list">
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">About Digital Analyst</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Team</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Become a Partner</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="body-footer__item">
+						<h6 class="body-footer__title">Contact</h6>
+						<ul class="body-footer__list">
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="tel:041774073">041-774073</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="mail:hello@digitalanalyst.org">hello@digitalanalyst.org</a></li>
+							<li class="body-footer__list-item"><a class="body-footer__list-link" href="">Contact Form</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__copyright">
+						© 2021 DigitalAnalyst.org. A 50 non-profit organization. EIN: -3410655
+					</div>
+					<div class="bottom-footer__action">
+						<ul class="bottom-footer__social">
+							<li class="bottom-footer__social-item"><a class="bottom-footer__social-link" href=""><img class="bottom-footer__social-img" src="img/icon/facebook.svg" alt="facebook icon"></a></li>
+							<li class="bottom-footer__social-item"><a class="bottom-footer__social-link" href=""><img class="bottom-footer__social-img" src="img/icon/twiter.svg" alt="twiter icon"></a></li>
+							<li class="bottom-footer__social-item"><a class="bottom-footer__social-link" href=""><img class="bottom-footer__social-img" src="img/icon/youtube.svg" alt="youtube icon"></a></li>
+							<li class="bottom-footer__social-item"><a class="bottom-footer__social-link" href=""><img class="bottom-footer__social-img" src="img/icon/instagram.svg" alt="instagram icon"></a></li>
+						</ul>
+						<button class="bottom-footer__btn button" type="submit">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220614173933"></script>
+</body>
+
+</html>
